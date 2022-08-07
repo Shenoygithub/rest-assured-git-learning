@@ -141,6 +141,7 @@ public class POJO {
 			  .all()
 			  .assertThat()
 			  .statusCode(404);
+			System.out.println("Finished!!!");
 			 // .extract()
 			 // .as(User.class);
 	}
